@@ -1,0 +1,19 @@
+CARRY OUT THESE SQL COMMANDS TO CREATE THESE USERS
+
+GRANT ALL PRIVILEGES ON SWAP.usertable TO 'hadmin'@'localhost' IDENTIFIED BY 'hadmin' ;
+
+GRANT SELECT ON SWAP.audit_table TO 'auditor'@'localhost' IDENTIFIED BY 'auditor' ;
+
+GRANT INSERT ON SWAP.audit_table TO 'auditor'@'localhost' IDENTIFIED BY 'auditor' ;
+
+GRANT UPDATE ON SWAP.audit_table TO 'auditor'@'localhost' IDENTIFIED BY 'auditor' ;
+
+GRANT DELETE ON SWAP.audit_table TO 'auditor'@'localhost' IDENTIFIED BY 'auditor' ;
+
+GRANT SELECT ON SWAP.usertable TO 'dbreader'@'localhost' IDENTIFIED BY 'dbpw' ;
+
+GRANT ALL PRIVILEGES ON SWAP.itemtable TO 'user'@'localhost' IDENTIFIED BY 'user' ;
+
+GRANT ALL PRIVILEGES ON SWAP.storetable TO 'admin'@'localhost' IDENTIFIED BY 'admin' ;
+
+GRANT ALL PRIVILEGES ON SWAP.otp_expiry TO 'otp'@'localhost' IDENTIFIED BY 'otp' ;

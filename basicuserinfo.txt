@@ -1,0 +1,20 @@
+
+
+uid pass email
+
+
+user user swaptestswap@sharklasers.com
+
+
+^basic user account
+
+(use guerilla mail to access. edit the email in there to be: swaptestswap@sharklasers.com)
+
+
+NOTE: FOR PENTESTERS:
+
+
+have a SMTP server online.
+
+
+libsodium should be installed for PHP.
