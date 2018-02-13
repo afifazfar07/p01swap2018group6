@@ -2,6 +2,8 @@
 date_default_timezone_set('Asia/Singapore');
 error_reporting(0);
 session_start();
+ini_set('session.cache_limiter','public');
+session_cache_limiter(false);
 $status=$_SESSION["Name"];
 
 if ( $status == "user" ) {
